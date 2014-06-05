@@ -25,4 +25,12 @@
         android:layout_y="230dp"
         android:text="Registrar" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="46dp"
+        android:src="@drawable/ic_launcher" />
+
 </AbsoluteLayout>
