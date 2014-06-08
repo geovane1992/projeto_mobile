@@ -11,11 +11,11 @@
         android:text="Nome:" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/txtNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName" >
+        android:inputType="name" >
 
         <requestFocus />
     </EditText>
@@ -27,11 +27,11 @@
         android:text="E-mail:" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="email" />
 
     <TextView
         android:id="@+id/textView4"
@@ -40,16 +40,16 @@
         android:text="Senha:" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/txtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="senha" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btCadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cadastrar" />
+        android:text="cadastrar" />
 
 </LinearLayout>

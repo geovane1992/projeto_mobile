@@ -13,10 +13,10 @@ public class CadastrarActivity extends Activity {
  private EditText txtNome;
  private EditText txtEmail;
  private EditText txtSenha;
- private Button btnCadastrar;
- private String Nome;
- private String Email;
- private String Senha;
+ private Button btCadastrar;
+ private String nome;
+ private String email;
+ private String senha;
  
 @Override
  protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +27,12 @@ public class CadastrarActivity extends Activity {
  txtSenha = (EditText) findViewById(R.id.txtNome);
  txtEmail = (EditText) findViewById(R.id.txtEmail);
  txtSenha = (EditText) findViewById(R.id.txtSenha);
- btnCadastrar.setOnClickListener(new OnClickListener() {
+ btCadastrar.setOnClickListener(new OnClickListener() {
  @Override
  public void onClick(View arg0) {
- Nome = (txtNome.getText().toString());
- Email = (txtEmail.getText().toString());
- Senha = (txtSenha.getText().toString());
+ nome = (txtNome.getText().toString());
+ email = (txtEmail.getText().toString());
+ senha = (txtSenha.getText().toString());
  
  }
  });
