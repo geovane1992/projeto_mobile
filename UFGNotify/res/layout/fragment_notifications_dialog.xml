@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <!-- UFG -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/univerity"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#C0C0C0" />
+
+        <Switch
+            android:id="@+id/generalView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/general"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/rectoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rectory" />
+
+        <Switch
+            android:id="@+id/proRectoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pro_rectory" />
+
+        <Switch
+            android:id="@+id/libraryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library" />
+
+        <!-- Curso -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/course"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#C0C0C0" />
+
+        <Switch
+            android:id="@+id/courseCoordinatorView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course_coordinator" />
+
+        <Switch
+            android:id="@+id/boardUnityView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/board_of_unity" />
+
+        <!-- Disciplinas -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/disciplines"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#C0C0C0" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desenvolvimento Mobile" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persistência" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desenvolvimento Web" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integração" />
+    </LinearLayout>
+
+</ScrollView>

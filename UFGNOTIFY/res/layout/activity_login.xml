@@ -1,52 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
 
-    <EditText
-        android:id="@+id/txtNome"
+    <TextView
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="74dp"
-        android:layout_y="129dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/email"
         android:ems="10"
-        android:inputType="textEmailAddress" >
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:text="" >
 
         <requestFocus />
     </EditText>
 
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userEmail"
+        android:layout_below="@+id/userEmail"
+        android:text="@string/password" />
+
     <EditText
-        android:id="@+id/txtEmail"
+        android:id="@+id/userPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="74dp"
-        android:layout_y="179dp"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/userEmail"
+        android:layout_below="@+id/password"
         android:ems="10"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="22dp"
-        android:layout_y="186dp"
-        android:text="Senha:" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="24dp"
-        android:layout_y="134dp"
-        android:text="E-mail:" />
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:text="" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/login_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="202dp"
-        android:layout_y="248dp"
-        android:text="Entrar" />
+        android:layout_alignLeft="@+id/userPassword"
+        android:layout_alignRight="@+id/userPassword"
+        android:layout_below="@+id/userPassword"
+        android:text="@string/enter" />
 
-</AbsoluteLayout>
+    <ProgressBar
+        android:id="@+id/progressLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

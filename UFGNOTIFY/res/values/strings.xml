@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">UFG NOTIFY</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">UFGNotify</string>
+
+    <!-- Banco de dados -->
+    <string name="database_name">UFGNotify.db</string>
+    <string name="database_version">1</string>
+
+    <!-- Activity -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_notification">Notificação</string>
+    <string name="title_activity_signup">Registrar</string>
+    <string name="title_activity_view_notification">Notificação selecionada</string>
+    <string name="title_activity_setting_notifications">Visualizar notificações</string>
+
+    <!-- Elementos -->
+    <string name="password">Senha</string>
+    <string name="enter">Entrar</string>
+    <string name="email">E-mail</string>
+    <string name="acess_visitor">Visitante</string>
+    <string name="login">Login</string>
+    <string name="full_name">Nome completo</string>
+    <string name="user_name">Usuário</string>
+    <string name="type">Tipo</string>
+    <string name="functionary">Doscente</string>
+    <string name="student">Estudante</string>
+    <string name="register">Registrar</string>
+    
+    <!-- Mensagens -->
+    <string name="fill_out_the_text_field ">Preencha o campo de texto</string>
+    <string name="email_invalid">Email invalido</string>
+    <string name="user_already_registered">Usuário já registrado</string>
+    <string name="email_already_used">Email já utilizado por outro usuario</string>
+    <string name="error_connect_database">Erro de conexão ao banco de dados</string>
+    <string name="erro_login">Usuário ou senha incorreta</string>
+    <string name="empty_notification">Sem notificação</string>
+    
+    <!-- Menu -->
+    <string name="action_settings">Configuração</string>
+    <string name="action_slelect_notifications">Configuração</string>
+    <string name="action_sign_up">Novo</string>
+    <string name="action_mark_no_read">Marcar não lida</string>
+    <string name="action_mark_read">Marcar como lida</string>
+    <string name="action_logout">Encerrar sessão</string>
+
+    <!-- Senders -->
+    <string name="univerity">UFG</string>
+    <string name="general">Geral</string>
+    <string name="rectory">Reitoria</string>
+    <string name="pro_rectory">Pró Reitoria</string>
+    <string name="library">Biblioteca</string>
+    <string name="course_coordinator">Coordenador do curso</string>
+    <string name="board_of_unity">Direção de unidade</string>
+    <string name="disciplines">DISCIPLINAS</string>
+    <string name="course">CURSO</string>
 
 </resources>

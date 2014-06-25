@@ -1,0 +1,73 @@
+#
+# generated on 2014/05/28 01:00:07
+#
+# --table-start--
+dataClass=br.ufg.UFGNotify.model.User
+tableName=users
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=user_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=fullName
+columnName=full_name
+# --field-end--
+# --field-start--
+fieldName=email
+columnName=email
+unique=true
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+unique=true
+# --field-end--
+# --field-start--
+fieldName=password
+columnName=password
+# --field-end--
+# --field-start--
+fieldName=type
+columnName=type
+dataPersister=INTEGER_OBJ
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=br.ufg.UFGNotify.model.Notification
+tableName=notification
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=notification_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=title
+# --field-end--
+# --field-start--
+fieldName=content
+columnName=content
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+dataPersister=DATE_TIME
+# --field-end--
+# --field-start--
+fieldName=sender
+columnName=sender
+dataPersister=INTEGER_OBJ
+# --field-end--
+# --field-start--
+fieldName=read
+columnName=read
+dataPersister=BOOLEAN_OBJ
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
